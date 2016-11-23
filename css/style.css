@@ -313,6 +313,11 @@ ul {
         font-size: 20px;
     }
 }
+@media (max-width: 450px) {
+    #startup-weekend {
+        width: 100%;
+    }
+}
 @media (max-width: 415px) {
     #wordmark {
         display: none;
