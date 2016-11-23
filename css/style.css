@@ -1,0 +1,302 @@
+body {
+    background-image: url(images/blueprint.png);
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+.projects {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+h1 {
+    font-size: 1em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.header {
+    font-size: .5em;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-weight: 300;
+    color: lightgray;
+}
+li {
+    list-style-type: none;
+    display: inline;
+}
+.social a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    transform: scale(.6,.6);
+    background-position: center center;
+    text-align: center;
+}
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#background {
+    width:100%;
+    position:fixed;
+    top:0;
+    font-family: 'Fira Sans', sans-serif; font-weight:400;
+    margin: 0 auto;
+    z-index: 0;
+}
+#myself {
+    z-index: -1;
+    margin-left: -475px;
+    position: absolute;
+    width: 650px;
+    visibility: hidden;
+}
+#info {
+    padding-top: 40px;
+}
+#cameron {
+    padding-top: 50px;
+    font-size:40px;
+    color:white;
+    text-align: center;
+    z-index: 0;
+}
+.seperator {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(242,242,242);
+    width: 100%;
+}
+.seperator-item {
+    font-family: 'Fira Sans', sans-serif; font-weight:400;
+    font-size: 25px;
+    color: slategray;
+    margin: 0 auto;
+}
+.row1 {
+     animation-duration: 1.5s;
+    animation-delay: .2s;
+}
+.row2 {
+     animation-duration: 1.5s;
+  animation-delay: .4s;
+}
+.row3 {
+     animation-duration: 1.5s;
+  animation-delay: .6s;
+}
+#row-fix {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.project-item {
+    margin-top: 40px;
+    font-family: 'Fira Sans', sans-serif; 
+    transition: box-shadow 1s;
+}
+.project-item h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+.project-img {
+    border-radius: 5px;
+    box-shadow: 0;
+    transition: box-shadow .5s;
+    border: 1px solid rgba(200,200,200,.45);
+}
+.project-img:hover {
+    -webkit-box-shadow: -1px 4px 16px 0px rgba(184,184,184,1);
+    -moz-box-shadow: -1px 4px 16px 0px rgba(184,184,184,1);
+    box-shadow: -1px 4px 16px 0px rgba(184,184,184,1);
+}
+
+.content {
+    background-color:white;
+    width:auto;
+    height:100%;
+    margin-top:500px;
+    position:relative;
+}
+.about-me {
+    max-width: 1200px;
+}
+.button {
+    padding: 15px 30px;
+    background-color: white;
+    font-size: .5em;
+    text-decoration: none;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: solid;
+    color: rgb(35,68,151);
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+.button:hover {
+    color: white;
+    background-color: rgb(35,68,151);
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    text-decoration: none;
+}
+.offscreen {
+    position: absolute;
+    top: 8em;
+    left: -18em;
+}
+.quote {
+    font-size: 25px;
+    vertical-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.project-info {
+    margin-top: 75px;
+}
+.project-role {
+    margin-top: 50px;
+    margin-left: 3%;
+}
+.project-role img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.project-header-text {
+    text-align: center;
+    color: white;
+    line-height: .8em;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
+.project-preview {
+    width: 500px;
+    margin-top: 50px;
+}
+.project-logo {
+    margin-top: 50px;
+    margin-left: 3%;
+    width: 225px;
+    display: block;
+    margin: 0 auto;
+}
+.project-header-text {
+    text-align: center !important;
+    color: white;
+    line-height: .8em;
+    letter-spacing: 1px;
+}
+.about-project {
+    margin: 32px 0px;
+}
+#expresso-jumbotron {
+    background-color: #F06B2F;
+}
+.jumbotron-content {
+    max-width: 992px;
+    margin: 0 auto;
+}
+.page-content {
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+/* Bootstrap Breakpoints 
+ 1200px: col-lg
+ 992px: col-md
+ 768px: col-sm
+ <768px: col-xs
+*/
+@media (max-width: 1200px) {
+    p {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+}
+@media (max-width: 992px) {
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    .project-preview {
+        width: 400px;
+    }
+    .project-info {
+        margin-top: 50px;
+    }
+    .quote {
+        margin-top: 5px;
+    }
+    #expresso-jumbotron {
+        height: 275px;
+    }
+    .project-logo {
+        width: 200px;
+    }
+}
+@media (min-width: 768px) {
+    #info {
+        margin-left: 225px;
+    }
+}
+@media (max-width: 768px) {
+    #myself {
+        display: none;
+    }
+    #expresso-products {
+        display: none;
+    }
+    #startup-weekend {
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 550px) {
+    .quote {
+        font-size: 20px;
+    }
+}
+@media (max-width: 415px) {
+    #wordmark {
+        display: none;
+    }
+}
+@media (min-width: 415px) {
+    #wordmark-mobile {
+        display: none;
+    }
+}
+@media (max-width: 245px) {
+    .button {
+        display: none;
+    }
+}
+
