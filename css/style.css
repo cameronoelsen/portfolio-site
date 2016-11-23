@@ -219,6 +219,10 @@ ul {
 }
 .slick-img {
     height: 200px;
+    margin-right: 4px;
+}
+.expresso-sw-slider {
+    margin-top: 16px;
 }
 
 /* Bootstrap Breakpoints 
@@ -272,6 +276,17 @@ ul {
     .project-logo {
         width: 200px;
     }
+    .content-section {
+        margin: 32px 0px;
+    }
+    .expresso-sw-slider {
+        margin-top: 32px;
+    }
+}
+@media (min-width: 992px) {
+    #startup-weekend {
+        padding-top: 16px;
+    }
 }
 @media (min-width: 768px) {
     #info {
@@ -288,6 +303,9 @@ ul {
     #startup-weekend {
         display: block;
         margin: 0 auto;
+    }
+    .sw-expresso-desc {
+        margin-top: 32px;
     }
 }
 @media (max-width: 550px) {
