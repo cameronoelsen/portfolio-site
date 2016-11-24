@@ -226,7 +226,7 @@ ul {
     width: auto;
     margin-right: 8px;
 }
-.expresso-sw-slider {
+.expresso-sw-slider, .expresso-mobile-slider {
     margin-top: 16px;
 }
 
