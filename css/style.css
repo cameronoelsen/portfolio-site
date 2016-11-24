@@ -221,6 +221,11 @@ ul {
     height: 200px;
     margin-right: 4px;
 }
+.expresso-mobile-img {
+    height: 400px;
+    width: auto;
+    margin-right: 8px;
+}
 .expresso-sw-slider {
     margin-top: 16px;
 }

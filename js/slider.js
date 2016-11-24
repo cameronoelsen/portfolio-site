@@ -8,4 +8,13 @@ $(document).ready(function() {
        variableWidth: true,
        arrows: false
    }); 
+    $('.expresso-mobile-slider').slick({
+       dots:true,
+        infinite:false,
+        speed: 300,
+        slidesToShow: 6,
+        slidesToScroll: 2,
+        arrows: false,
+        variableWidth: true
+    });
 });
