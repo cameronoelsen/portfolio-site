@@ -225,9 +225,21 @@ ul {
     height: 400px;
     width: auto;
     margin-right: 8px;
+    border: 1px solid #E0E0E0;
 }
 .expresso-sw-slider, .expresso-mobile-slider {
     margin-top: 16px;
+}
+.expresso-mobile-slider {
+    text-align: center;
+}
+.slider-desc-head {
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.slider-desc-subhead {
+    color: #9E9E9E;
+    
 }
 
 /* Bootstrap Breakpoints 
