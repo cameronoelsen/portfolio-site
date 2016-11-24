@@ -230,7 +230,7 @@ ul {
 .expresso-sw-slider, .expresso-mobile-slider {
     margin-top: 16px;
 }
-.expresso-mobile-slider {
+.expresso-mobile-slider, .expresso-barista-slider {
     text-align: center;
 }
 .slider-desc-head {
@@ -238,8 +238,13 @@ ul {
     margin-top: 8px;
 }
 .slider-desc-subhead {
-    color: #9E9E9E;
-    
+    color: #9E9E9E; 
+}
+.barista-showcase {
+    width: 100%;
+}
+.barista-header {
+    padding-top: 100px;
 }
 
 /* Bootstrap Breakpoints 
