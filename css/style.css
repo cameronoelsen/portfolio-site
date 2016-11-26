@@ -363,9 +363,6 @@ ul {
     }
 }
 @media (max-width: 768px) {
-    #myself {
-        display: none;
-    }
     #expresso-products {
         display: none;
     }
@@ -387,6 +384,11 @@ ul {
     }
     .project-info {
         margin-top: 20px;
+    }
+}
+@media (max-width: 767px) {
+    #myself {
+        display: none;
     }
 }
 @media (max-width: 550px) {
