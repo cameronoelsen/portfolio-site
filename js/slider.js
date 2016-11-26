@@ -6,7 +6,16 @@ $(document).ready(function() {
         slidesToShow: 4,
         slidesToScroll: 3,
         variableWidth: true,
-        arrows: false
+        arrows: false,
+        responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        dots: false,
+                        slidesToScroll: 1
+                    }
+            }
+        ]
    }); 
     $('.expresso-mobile-slider').slick({
         dots:true,
@@ -15,7 +24,16 @@ $(document).ready(function() {
         slidesToShow: 6,
         slidesToScroll: 2,
         arrows: false,
-        variableWidth: true
+        variableWidth: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    dots: false,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
     $('.expresso-barista-slider').slick({
         dots:true,
@@ -24,6 +42,15 @@ $(document).ready(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        variableWidth: true
+        variableWidth: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    dots: false,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 });
