@@ -6,10 +6,6 @@ window.addEventListener("scroll", function () {
     pos = window.pageYOffset;
 }, false);
 
-$('html, body').stop().animate({
-   scrollTop: element.offset().top
-}, 1000);
-
 $(document).ready( function() {
     $('.project-item').hover( function() {
         $(this).find('.img-title').fadeIn(300);

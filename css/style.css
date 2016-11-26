@@ -1,8 +1,6 @@
 .home-page {
     background-image: url(../images/blueprint.png);
     background-size: cover;
-    position: relative;
-    height: 100%;
 }
 .navbar {
     margin-bottom: 0px;
@@ -30,7 +28,6 @@
 }
 .expresso-tab:hover {
     background-color: #F06B2F !important;
-    border-bottom: 1px solid white;
     box-sizing: border-box;
     transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
