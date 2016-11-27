@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="94px" viewBox="0 0 93 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 976 + Oval 2 + Oval 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="91.35" height="91.35" rx="22.5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="91.35" height="91.35" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1030.000000, -150.000000)">
+            <g id="Rectangle-976-+-Oval-2-+-Oval-1-Copy" transform="translate(1030.825000, 150.575000)">
+                <g id="Rectangle-976">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#FF6045" mask="url(#mask-3)" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Oval-2-+-Oval-1-Copy" transform="translate(15.300000, 15.300000)" fill="#FF6045">
+                    <path d="M30.375,60.75 C47.1506493,60.75 60.75,47.1506493 60.75,30.375 C60.75,13.5993507 47.1506493,0 30.375,0 C13.5993507,0 0,13.5993507 0,30.375 C0,47.1506493 13.5993507,60.75 30.375,60.75 Z M27.3774671,9.39226974 C27.3774671,7.73677803 28.7228769,6.39473684 30.375,6.39473684 C32.0304917,6.39473684 33.3725329,7.74373327 33.3725329,9.39226974 L33.3725329,22.5814145 C33.3725329,24.2369062 32.0271231,25.5789474 30.375,25.5789474 C28.7195083,25.5789474 27.3774671,24.2299509 27.3774671,22.5814145 L27.3774671,9.39226974 Z M37.3667248,33.4724507 C35.7678071,33.4724507 34.4716283,32.1718879 34.4716283,30.5748355 C34.4716283,28.9745269 35.7663568,27.6772204 37.3667248,27.6772204 L47.5633739,27.6772204 C49.1622915,27.6772204 50.4584704,28.9777832 50.4584704,30.5748355 C50.4584704,32.1751442 49.1637419,33.4724507 47.5633739,33.4724507 L37.3667248,33.4724507 Z" id="Oval-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
