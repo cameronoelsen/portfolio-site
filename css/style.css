@@ -327,6 +327,10 @@ ul {
     left: 310px;
     top: 100px;
 }
+.clockd-real-beacon {
+    width: 375px;
+    padding-top: 8px;
+}
 .clockd-doorway {
     position: absolute;
     left: 225px;
@@ -341,6 +345,11 @@ ul {
     text-align: center;
     font-weight: 200;
     color: white;
+}
+.clockd-concept-desc {
+  margin-top: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .beacon-container .clockd-beacon-pulse {
     border: 3px solid rgb(256,256,256);
@@ -496,6 +505,10 @@ ul {
     .mobile-timeframe {
         display: inline;
     }
+    .clockd-real-beacon {
+        display: block;
+        margin: 0 auto;
+    }
     
 }
 @media (min-width: 992px) {
@@ -567,6 +580,9 @@ ul {
 }
 @media (max-width: 450px) {
     #startup-weekend {
+        width: 100%;
+    }
+    .clockd-real-beacon {
         width: 100%;
     }
 }
