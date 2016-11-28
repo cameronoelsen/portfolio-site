@@ -435,6 +435,9 @@ ul {
             top: 25px;
         }
     }
+    .clockd-real-beacon {
+        padding-top: 20px;
+    }
 }
 @media (max-width: 992px) {
     h1 {
@@ -508,8 +511,8 @@ ul {
     .clockd-real-beacon {
         display: block;
         margin: 0 auto;
+        padding-top: 8px;
     }
-    
 }
 @media (min-width: 992px) {
     #startup-weekend {
