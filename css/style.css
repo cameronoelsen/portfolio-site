@@ -351,6 +351,9 @@ ul {
     padding-left: 0px;
     padding-right: 0px;
 }
+.clockd-leaderboard {
+    margin-top: 60px !important;
+}
 .section-desc-subsection {
     margin-top: 24px;
 }
@@ -567,6 +570,9 @@ ul {
     }
     .beacon-container {
         display: none;
+    }
+    .clockd-leaderboard {
+        margin-top: 24px !important;
     }
 }
 @media (max-width: 767px) {

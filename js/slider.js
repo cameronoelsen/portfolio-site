@@ -52,7 +52,26 @@ $(document).ready(function() {
                 }
             }
         ]
-    })
+    });
+    $('.leaderboard-slider').slick({
+        dots:true,
+        infinite:false,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        arrows: false,
+        variableWidth: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    dots: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
     $('.expresso-barista-slider').slick({
         dots:true,
         infinite: false,
