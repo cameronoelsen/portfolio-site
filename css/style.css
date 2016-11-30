@@ -311,7 +311,7 @@ ul {
 .barista-header {
     padding-top: 100px;
 }
-.expresso-landing-img {
+.website-landing-img {
     border: 1px solid #E0E0E0;
     margin-top: 32px;
 }
@@ -353,6 +353,29 @@ ul {
 }
 .clockd-leaderboard {
     margin-top: 60px !important;
+}
+.clockd-website-slider-nav {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    display: block;
+}
+.clockd-website-navbar {
+    display: none;
+}
+.clock-website-nav-item {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+.clockd-website-slider-desc {
+    text-align: center;
+    padding-top: 8px;
+}
+.website-inview {
+    display: inline;
 }
 .section-desc-subsection {
     margin-top: 24px;
