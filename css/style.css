@@ -597,6 +597,9 @@ ul {
     .clockd-leaderboard {
         margin-top: 24px !important;
     }
+    .clock-website-nav-item {
+        height: 75px;   
+    }
 }
 @media (max-width: 767px) {
     #myself {
