@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(../fonts/Segoe/segoeui.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url(../fonts/Segoe/segoeuil.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 .home-page {
     background-image: url(../images/blueprint.png);
     background-size: cover;
@@ -27,6 +40,9 @@
 }
 .clockd-navbar {
     background-color: #FE5434;
+}
+.azure-navbar {
+    background-color: #191919;
 }
 .white-icon-bar {
     background-color: white;
@@ -228,6 +244,10 @@ ul {
     letter-spacing: 1px;
     margin-top: 12px;
 }
+.project-info .azure-info {
+    text-align: left !important;
+    padding-bottom: 36px;
+}
 .project-preview {
     width: 500px;
     margin-top: 50px;
@@ -254,6 +274,9 @@ ul {
 #clockd-jumbotron {
     background: linear-gradient(-180deg, #FE5434, #FE285D);
     height: 325px;
+}
+#azure-jumbotron {
+    background-color: #191919;
 }
 .jumbotron-content {
     max-width: 992px;
@@ -411,6 +434,23 @@ ul {
         
     }
 }
+.azure-header {
+    font-size: 52px;
+    font-family: 'Segoe UI Light';
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+.azure-subheader {
+    font-size: 28px;
+    font-family: 'Segoe UI';
+    color: #2091D4;
+    margin-bottom: 0px;
+}
+.azure-info-section {
+    margin-top: 25px;
+}
+
 
 /* Bootstrap Breakpoints 
  1200px: col-lg
