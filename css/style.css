@@ -67,6 +67,12 @@
 .clockd-tab:focus {
     background-color: #FE5434 !important;
 }
+.azure-tab {
+    background-color: #191919 !important;
+}
+.azure-tab:hover {
+    background-color: #191919 !important;
+}
 .projects {
     max-width: 1200px;
     margin: 0 auto;
@@ -450,6 +456,12 @@ ul {
 .azure-info-section {
     margin-top: 25px;
 }
+.azure-surface {
+    height: 300px;
+    position: relative;
+    left: 100px;
+    margin-bottom: 12px;
+}
 
 
 /* Bootstrap Breakpoints 
@@ -506,6 +518,12 @@ ul {
     }
     .clockd-real-beacon {
         padding-top: 20px;
+    }
+    .azure-surface {
+        height: 300px;
+        position: relative;
+        left: 120px;
+        padding-top: 30px;
     }
 }
 @media (max-width: 992px) {
@@ -576,11 +594,20 @@ ul {
     }
     .mobile-timeframe {
         display: inline;
+        margin: 0 auto;
     }
     .clockd-real-beacon {
         display: block;
         margin: 0 auto;
         padding-top: 8px;
+    }
+    .azure-surface {
+        height: 300px;
+        left: 20px;
+        top: 20px;
+    }
+    .intern-position {
+        line-height: 1.2;
     }
 }
 @media (min-width: 992px) {
@@ -623,7 +650,7 @@ ul {
         margin-top: 20px;
     }
     .desktop-timeframe {
-        display: inline;
+        display: block;
     }
     .mobile-timeframe {
         display: none;
@@ -639,6 +666,19 @@ ul {
     }
     .clock-website-nav-item {
         height: 75px;   
+    }
+    .azure-surface {
+        left: 0px;
+        top: 0px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    .azure-header, .azure-subheader, .intern-position {
+        text-align: center !important;
+    }
+    .desktop-timeframe, .mobile-timeframe {
+        text-align: center !important;
     }
 }
 @media (max-width: 767px) {
