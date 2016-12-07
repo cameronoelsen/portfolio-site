@@ -141,6 +141,24 @@ $(document).ready(function() {
             }
         ]
     });
+    $('.libraries-wireframe-slider').slick({
+        dots:true,
+        infinite:false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        variableWidth: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    dots: false,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
     $('.animsition').animsition({
     inClass: 'fade-in',
     outClass: 'fade-out',

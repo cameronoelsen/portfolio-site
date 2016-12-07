@@ -462,7 +462,16 @@ ul {
     left: 100px;
     margin-bottom: 12px;
 }
-
+.libraries-highlight {
+    position: absolute;
+    width: 347px;
+    top: 23px;
+    left: 177px;
+}
+.wireframe-slide {
+    width: 450px;
+    height: auto;
+}
 
 /* Bootstrap Breakpoints 
  1200px: col-lg
@@ -524,6 +533,11 @@ ul {
         position: relative;
         left: 120px;
         padding-top: 30px;
+    }
+    .libraries-highlight {
+        width: 313px;
+        top: 51px;
+        left: 191px;
     }
 }
 @media (max-width: 992px) {
@@ -608,6 +622,11 @@ ul {
     }
     .intern-position {
         line-height: 1.2;
+    }
+    .libraries-highlight {
+        width: 313px;
+        top: 70px;
+        left: 90px;
     }
 }
 @media (min-width: 992px) {
@@ -702,6 +721,11 @@ ul {
     }
     .clockd-real-beacon {
         width: 100%;
+    }
+    .azure-surface {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
     }
 }
 @media (max-width: 415px) {
