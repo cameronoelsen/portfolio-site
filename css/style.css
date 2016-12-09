@@ -383,12 +383,12 @@ ul {
 .clockd-leaderboard {
     margin-top: 60px !important;
 }
-.clockd-website-slider-nav {
+.website-slider-controller {
     margin-bottom: 0px;
     margin-top: 10px;
     display: block;
 }
-.clockd-website-navbar {
+.website-slider-navbar {
     display: none;
 }
 .clock-website-nav-item {

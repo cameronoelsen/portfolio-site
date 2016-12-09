@@ -4,8 +4,12 @@ $(document).ready(function() {
             if($(window).scrollTop() + $(window).height() > ($(document).height() - 1500)) {
                 $('.clockd-website-navbar').addClass('website-inview');
             }
+            else if ($(window).scrollTop() + $(window).height() > ($(document).height() - 2200)){
+                $('.libraries-website-navbar').addClass('website-inview');
+            }
             else {
                 $('.clockd-website-navbar').removeClass('website-inview');
+                $('.libraries-website-navbar').removeClass('website-inview');
             }
         }
         else if ($(window).width() < 768) {
@@ -91,6 +95,31 @@ $(document).ready(function() {
         slidesToScroll: 1,
         variableWidth: true,
         asNavFor: '.clockd-website-slider',
+        dots: true,
+        focusOnSelect: true,
+        responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: false
+                    }
+            }
+        ]
+    });
+    $('.libraries-website-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.libraries-website-slider-nav'
+    });
+    $('.libraries-website-slider-nav').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        variableWidth: true,
+        asNavFor: '.libraries-website-slider',
         dots: true,
         focusOnSelect: true,
         responsive: [
