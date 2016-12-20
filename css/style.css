@@ -136,7 +136,7 @@ ul {
 }
 #myself {
     z-index: -1;
-    margin-left: -475px;
+    margin-left: -500px;
     position: absolute;
     width: 650px;
     visibility: hidden;
@@ -411,7 +411,7 @@ ul {
     display: none;
 }
 .clock-website-nav-item {
-    height: 100px;
+    height: 80px;
     display: block;
     margin: 0 auto;
     padding-left: 24px;
@@ -556,6 +556,9 @@ ul {
     display: block;
     margin: 0 auto;
     height: 275px;
+}
+.jupyter-role-subhead {
+    color: #757575;
 }
 
 /* Bootstrap Breakpoints 
