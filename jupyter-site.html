@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Project Jupyter Website | Cameron Oelsen's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+        <link type="text/css" rel="stylesheet" href="css/animate.css"/>
+        <link href='css/bootstrap-theme.min.css' rel='stylesheet' type='text/css'>
+        <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="animsition/dist/css/animsition.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="animsition">
+        <nav class="navbar product-navbar jupyter-navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle jupyter-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar dark-icon-bar"></span>
+                        <span class="icon-bar dark-icon-bar"></span>
+                        <span class="icon-bar dark-icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand animsition-link" href="index.html">
+                        <img class="brand-image" src="images/dark-wordmark.png"/>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="jupyter-tab animsition-link" href="index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle jupyter-tab" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-white-text" href="#">Action</a></li>
+                                <li><a class="dropdown-white-text" href="#">Another action</a></li>
+                                <li><a class="dropdown-white-text" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="jupyter-tab" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="project-container">
+        <div id="jupyter-jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="jumbotron-content">
+                        <div class="col-sm-12">
+                            <div class="jupyter-img-container">
+                                <span>
+                                    <img class="img-responsive jupyter-jumbotron-ring fade-in one" src="images/jupyter-site/circle1.svg" alt="circle of programming language icons">
+                                </span>
+                            </div>
+                            <div class="jupyter-img-container">
+                                <span>
+                                    <img class="img-responsive jupyter-jumbotron-ring fade-in two" src="images/jupyter-site/circle2.svg" alt="circle of programming language icons">
+                                </span>
+                            </div>
+                            <div class="jupyter-img-container">
+                                <span>
+                                    <img class="img-responsive jupyter-jumbotron-ring fade-in three" src="images/jupyter-site/circle3.svg" alt="circle of programming language icons">
+                                </span>
+                            </div>
+                            <div class="jupyter-img-container">
+                                <img class="img-responsive" id="jupyter-site-jumbotron-logo" src="images/jupyter-site/main-logo.svg" alt="jupyter logo">
+                            </div>
+                            <img class="img-responsive" src="images/jupyter-site/white-background.svg" alt="white background">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-project">
+            <div class="container">
+                <div class="row">
+                    <div class="page-content">
+                        <div class="col-md-12 content-section">
+                            <h3 class="section-header">About Azure Notebooks</h3>
+                            <p class="section-subhead">The Project Jupyter website was my first project when I joined Project Jupyter at the beginning of the summer of 2015. Over the summer, I worked with project contributors and actual users of the Jupyter Notebook to find out what content the website needed to deliver. After speaking with them, I found that the website needed to provide more clarity regarding what Project Jupyter and the Jupyter Notebook are, an overview of how Project Jupyter operates as an open source project, and sections for resources and documentation for users in the open source community.</p>
+                        </div>
+                        <div class="col-md-12 content-section">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="libraries-wireframe-slider">
+                                    <div>
+                                        <img class="wireframe-slide" src="images/microsoft/Teacher/Sharer's%20User%20Flow.jpg"/>
+                                    </div>
+                                    <div>
+                                        <img class="wireframe-slide" src="images/microsoft/Student/Receiver's%20User%20Flow.jpg"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 clockd-concept-desc">
+                                <h3 class="section-header">Notebook Libraries research</h3>
+                                <p class="section-subhead">For the first 3 weeks of my internship, I reached out to users of the Jupyter Notebook in data science. After speaking and interviewing about 10 users, I found that the most relevant market for Notebook Libraries was in education. Next, after interviewing teachers and students in data science from a variety of different schools, three core necessities continually came up: little to no setup for Jupyter notebooks, shareability, and the service needed to be free to be successful in education. With these core necessities, I worked with my team to come up with a wireframe for my feasible 1.0 that I could ship by the end of the summer.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 content-section">
+                            <h3 class="section-header">Azure Notebooks Website Overhaul + Notebook Libraries</h3>
+                            <p class="section-subhead">With the new design of the notebook libraries feature, I applied my findings from my interviews with users. However, once I finished my initial summer project, the rest of the Azure Notebooks site seemed to be out of place. And after looking at the styling of the elements, I found that the Azure Notebooks site was not conforming to Microsoft's Design Specifications. So, for the last 2 weeks of my internship, I took on the task to rapidly design and develop the new Azure Notebooks site to ship alongside the notebook libraries feature.</p>
+                            <img class="img-responsive expresso-landing-img" src=""/>
+                            <div class="libraries-website-slider">
+                                <div>
+                                    <img id="libraries-1" class="img-responsive website-landing-img" src="images/microsoft/notebooks-website-1.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-2" class="img-responsive website-landing-img" src="images/microsoft/notebooks-website-2.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-3" class="img-responsive website-landing-img" src="images/microsoft/libraries-1.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-4" class="img-responsive website-landing-img" src="images/microsoft/libraries-2.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-5" class="img-responsive website-landing-img" src="images/microsoft/libraries-3.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-6" class="img-responsive website-landing-img" src="images/microsoft/libraries-4.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-7" class="img-responsive website-landing-img" src="images/microsoft/libraries-5.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-8" class="img-responsive website-landing-img" src="images/microsoft/libraries-6.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-9" class="img-responsive website-landing-img" src="images/microsoft/libraries-7.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-10" class="img-responsive website-landing-img" src="images/microsoft/libraries-8.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-11" class="img-responsive website-landing-img" src="images/microsoft/libraries-9.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-12" class="img-responsive website-landing-img" src="images/microsoft/libraries-10.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-13" class="img-responsive website-landing-img" src="images/microsoft/libraries-11.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-14" class="img-responsive website-landing-img" src="images/microsoft/libraries-12.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-15" class="img-responsive website-landing-img" src="images/microsoft/libraries-13.jpg"/>
+                                </div>
+                                <div>
+                                    <img id="libraries-16" class="img-responsive website-landing-img" src="images/microsoft/libraries-14.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <nav class="navbar navbar-default navbar-fixed-bottom website-slider-navbar libraries-website-navbar animated slideInUp">
+                <div class="container">
+                    <div class="col-md-offset-2 col-md-8 col-md-offset-2">
+                    <div class="website-slider-controller libraries-website-slider-nav">
+                        <div>
+                            <a href="#libraries-1">
+                                <img class="clock-website-nav-item" src="images/microsoft/notebooks-website-1-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Landing page</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-2">
+                                <img class="clock-website-nav-item" src="images/microsoft/notebooks-website-2-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">FAQ/Support page</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-3">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-1-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Libraries - Home</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-4">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-2-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Libraries - Create</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-5">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-3-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Libraries - Edit</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-6">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-4-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Libraries - Share</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-7">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-5-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Libraries - Share</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-8">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-6-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Libraries - Share</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-9">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-7-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Library - Main screen</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-10">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-8-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Library - Add notebooks</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-11">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-9-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Library - Add notebooks</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-12">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-10-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Library - Add notebooks</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-13">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-11-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Library - Add notebooks</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-14">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-12-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Library - Delete notebook</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-15">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-13-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Library - Shared view</p>
+                        </div>
+                        <div>
+                            <a href="#libraries-16">
+                                <img class="clock-website-nav-item" src="images/microsoft/libraries-14-preview.jpg"/>
+                            </a>
+                            <p class="clockd-website-slider-desc">Notebook - NBViewer mode</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/slider.js"></script>
+        <script src="animsition/dist/js/animsition.min.js"></script>
+        <script src="js/waypoint.js"></script>
+    </body>

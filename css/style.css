@@ -44,8 +44,17 @@
 .azure-navbar {
     background-color: #191919;
 }
+.jupyter-navbar {
+    background-color: white;
+}
 .white-icon-bar {
     background-color: white;
+}
+.dark-icon-bar {
+    background-color: #717171;
+}
+.jupyter-toggle {
+    border: 1px solid #E0E0E0;
 }
 .expresso-tab:hover {
     background-color: #F06B2F !important;
@@ -72,6 +81,13 @@
 }
 .azure-tab:hover {
     background-color: #191919 !important;
+}
+.jupyter-tab {
+    color: black;
+    background-color: white;
+}
+.jupyter-tab:hover {
+    color: black;
 }
 .projects {
     max-width: 1200px;
@@ -284,6 +300,9 @@ ul {
 #azure-jumbotron {
     background-color: #191919;
 }
+#jupyter-jumbotron {
+    background-color: white;
+}
 .jumbotron-content {
     max-width: 992px;
     margin: 0 auto;
@@ -471,6 +490,72 @@ ul {
 .wireframe-slide {
     width: 450px;
     height: auto;
+}
+
+#jupyter-site-jumbotron-logo {
+    display: block;
+	height: calc(100% - 100px);
+    width: auto;
+	margin-top: 32px !important;
+    padding-left: 20px;
+}
+@-webkit-keyframes fadeIn { from { opacity:0;} to { opacity:1;} }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0;} to { opacity:1;} }
+
+.fade-in {
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animation ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    opacity:0;  /* make things invisible upon start */
+}
+.fade-in.one {
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.fade-in.two {
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay:0.7s;
+    animation-delay: 0.7s;
+}
+.fade-in.three {
+    -webkit-animation-delay: 1.1s;
+    -moz-animation-delay: 1.1s;
+    animation-delay: 1.1s;
+}
+#jupyter-jumbotron {
+    background-color: white;
+    margin-top:52px;
+    overflow: hidden;
+}
+#jupyter-jumbotron img {
+    margin: 0 auto;
+}
+.jupyter-img-container {
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 95%;
+}
+.jupyter-img-container img {
+    vertical-align: center;
+}
+.jupyter-jumbotron-ring {
+    display: block;
+    margin: 0 auto;
+    height: 275px;
 }
 
 /* Bootstrap Breakpoints 
@@ -698,6 +783,16 @@ ul {
     }
     .desktop-timeframe, .mobile-timeframe {
         text-align: center !important;
+    }
+    #jupyter-site-jumbotron-logo {
+        margin-top: 20px !important;
+        height: calc(100% - 40px);
+    }
+    #jupyter-jumbotron {
+        margin-top: 12px;
+    }
+    .jupyter-jumbotron-ring {
+        height: auto;
     }
 }
 @media (max-width: 767px) {
