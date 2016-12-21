@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    //Clock'd website navbar
+    //Clock'd Website Slider Navbar
     $(window).scroll(function() {
         if ($(window).width() < 600) {
             if($(window).scrollTop() + $(window).height() > ($(document).height() - 300)) {
@@ -34,7 +34,7 @@ $(document).ready(function() {
             }
         }
     });
-    //Libraries website navbar
+    //Libraries Website Slider Navbar
     $(window).scroll(function() {
         if ($(window).width() < 600) {
             if($(window).scrollTop() + $(window).height() > ($(document).height() - 1000)) {
@@ -66,6 +66,41 @@ $(document).ready(function() {
             }
             else {
                 $('.libraries-website-navbar').removeClass('website-inview');
+            }
+        }
+    });
+    //Jupyter Website Slider Navbar
+    $(window).scroll(function() {
+        if ($(window).width() < 600) {
+            if($(window).scrollTop() + $(window).height() > ($(document).height() - 900)) {
+                $('.jupyter-website-navbar').addClass('website-inview');
+            }
+            else {
+                $('.jupyter-website-navbar').removeClass('website-inview');
+            }
+        }
+        else if ($(window).width() < 768) {
+            if($(window).scrollTop() + $(window).height() > ($(document).height() - 2000)) {
+                $('.jupyter-website-navbar').addClass('website-inview');
+            }
+            else {
+                $('.jupyter-website-navbar').removeClass('website-inview');
+            }
+        }
+        else if ($(window).width() < 991) {
+            if($(window).scrollTop() + $(window).height() > ($(document).height() - 1900)) {
+                $('.jupyter-website-navbar').addClass('website-inview');
+            }
+            else {
+                $('.jupyter-website-navbar').removeClass('website-inview');
+            }
+        }
+        else if ($(window).width() > 991) {
+            if($(window).scrollTop() + $(window).height() > ($(document).height() - 2400)) {
+                $('.jupyter-website-navbar').addClass('website-inview');
+            }
+            else {
+                $('.jupyter-website-navbar').removeClass('website-inview');
             }
         }
     });
@@ -161,6 +196,32 @@ $(document).ready(function() {
         variableWidth: true,
         initialSlide: 0,
         asNavFor: '.libraries-website-slider',
+        dots: true,
+        focusOnSelect: true,
+        responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: false
+                    }
+            }
+        ]
+    });
+    $('.jupyter-website-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.jupyter-website-slider-nav'
+    });
+    $('.jupyter-website-slider-nav').slick({
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        variableWidth: true,
+        initialSlide: 0,
+        asNavFor: '.jupyter-website-slider',
         dots: true,
         focusOnSelect: true,
         responsive: [
