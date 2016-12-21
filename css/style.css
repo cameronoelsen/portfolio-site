@@ -557,6 +557,9 @@ ul {
     margin: 0 auto;
     height: 275px;
 }
+.jupyter-role {
+    margin-top: 2px;
+}
 .jupyter-role-subhead {
     color: #757575;
 }
