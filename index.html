@@ -14,12 +14,14 @@
     <link rel="stylesheet" href="animsition/dist/css/animsition.min.css">
 </head>
     
-<body class="home-page">
+<body>
+    <div class="home-animsition animsition">
+    <div class="home-page">
     <div class="container-fluid">
         <div class="row">
             <div id="background">
                 <div id="cameron">
-                    <img class="slideUp" src="images/myself.png" id="myself">
+                    <img src="images/myself.png" id="myself">
                 <div id="info">
                     <h1><img id="wordmark" src="images/wordmark2.png" width="400px" style="z-index:1"></h1>
                     <h1><img id="wordmark-mobile" class="img-responsive" src="images/wordmark2.png" width="400px" style="z-index:1"></h1>
@@ -81,11 +83,6 @@
                         <h2 style="font-weight:300">ZBT Eta Mu Website</h2>
                         <p></p>
                     </div>
-                    <div class="row2 animated fadeIn project-item col-xs-6 col-sm-6 col-md-4 col-lg-4">
-                        <img class="img-responsive project-img" src="images/front-page/big-little-header.jpg"/>
-                        <h2 style="font-weight:300">ZBT Big Little Game</h2>
-                        <p></p>
-                    </div>
                     <div class="row3 animated fadeIn project-item col-xs-6 col-sm-6 col-md-4 col-lg-4">
                         <img class="img-responsive project-img" src="images/front-page/spongebob-header.jpg"/>
                         <h2 style="font-weight:300">Spongebob Packaging Project</h2>
@@ -101,9 +98,12 @@
             </div>
         </div>
         </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="js/cameronsite.js"></script>
     <script src="animsition/dist/js/animsition.min.js"></script>
+    <script src="js/cameronsite.js"></script>
+    <script src="js/custom-animsition.js"></script>
 </body>
 </html>

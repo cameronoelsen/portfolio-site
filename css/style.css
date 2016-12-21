@@ -553,7 +553,7 @@ ul {
     vertical-align: center;
 }
 .jupyter-jumbotron-ring {
-    display: block;
+    display: none;
     margin: 0 auto;
     height: 275px;
 }
@@ -790,12 +790,14 @@ ul {
     #jupyter-site-jumbotron-logo {
         margin-top: 20px !important;
         height: calc(100% - 40px);
+        padding-left: 0px;
     }
     #jupyter-jumbotron {
-        margin-top: 12px;
+        margin-top: 24px;
     }
     .jupyter-jumbotron-ring {
         height: auto;
+        margin-left: -5px !important;
     }
 }
 @media (max-width: 767px) {
