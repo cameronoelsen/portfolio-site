@@ -290,6 +290,42 @@ $(document).ready(function() {
             }
         ]
     });
+    $('.playlyst-design-process-slider').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        variableWidth: true,
+        arrows: false,
+        responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        dots: false,
+                        slidesToScroll: 1
+                    }
+            }
+        ]
+   }); 
+    $('.playlyst-mobile-slider').slick({
+        dots:true,
+        infinite:false,
+        speed: 300,
+        slidesToShow: 6,
+        slidesToScroll: 2,
+        arrows: false,
+        variableWidth: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    dots: false,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
     
     //Magnific Popups for Sliders
     $('.libraries-wireframe-slider').magnificPopup({
@@ -385,6 +421,38 @@ $(document).ready(function() {
             tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
 			titleSrc: function(item) {
 				return item.el.attr('title') + "<small>Clock'd iOS Application</small>";
+			}
+        }
+    });
+    $('.playlyst-design-process-slider').magnificPopup({
+        delegate: 'img',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+        },
+        image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + "<small>Playlyst iOS Application</small>";
+			}
+        }
+    });
+    $('.playlyst-mobile-slider').magnificPopup({
+        delegate: 'img',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+        },
+        image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>Playlyst Mobile Application</small>';
 			}
         }
     });

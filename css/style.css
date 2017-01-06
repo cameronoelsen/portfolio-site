@@ -47,6 +47,9 @@
 .jupyter-navbar {
     background-color: white;
 }
+.playlyst-navbar {
+    background-color: #2D95F2;
+}
 .white-icon-bar {
     background-color: white;
 }
@@ -88,6 +91,16 @@
 }
 .jupyter-tab:hover {
     color: black;
+}
+.playlyst-tab {
+    background-color: #2D95F2 !important;
+    box-sizing: border-box;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+.playlyst-tab:hover {
+    background-color: #2D95F2;
 }
 .projects {
     max-width: 1200px;
@@ -302,6 +315,10 @@ ul {
 }
 #jupyter-jumbotron {
     background-color: white;
+}
+#playlyst-jumbotron {
+    background-color: #2D95F2;
+    height: 440px;
 }
 .jumbotron-content {
     max-width: 992px;
@@ -563,7 +580,55 @@ ul {
 .jupyter-role-subhead {
     color: #757575;
 }
-
+.playlyst-header-img {
+    height: 425px;
+    width: auto;
+    position: relative;
+    left: 80px;
+}
+.playlyst-header-music {
+    position: absolute;
+    height: 150px;
+    top: 210px;
+}
+.playlyst-header-music-left {
+    left: -38px;
+}
+.playlyst-header-music-right {
+    left: 540px;
+}
+.playlyst-wordmark-wrapper {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 28px;
+}
+.playlyst-wordmark {
+    display: block;
+    position: relative;
+    height: 36px;
+    top: 20px;
+    left: 36px;
+}
+.playlyst-info {
+    margin-top: 160px;
+}
+.playlyst-consideration-img {
+    width: 380px;
+}
+.playlyst-consideration-desc {
+    margin-top: 40px;
+    margin-left: 24px;
+}
+.playlyst-design-img {
+    height: 300px;
+}
+.playlyst-design-process-desc {
+    margin-top: 80px;
+}
+.playlyst-design-process {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 /* Bootstrap Breakpoints 
  1200px: col-lg
  992px: col-md
@@ -629,6 +694,15 @@ ul {
         width: 313px;
         top: 51px;
         left: 191px;
+    }
+    .playlyst-consideration-desc {
+        margin-top: 0px;
+    }
+    .playlyst-consideration-img {
+        margin-top: 36px;
+    }
+    .playlyst-design-process-desc {
+        margin-top: 60px;
     }
 }
 @media (max-width: 992px) {
@@ -719,6 +793,28 @@ ul {
         top: 70px;
         left: 90px;
     }
+    .playlyst-header-music {
+        display: none;
+    }
+    .playlyst-header-img {
+        left: 10px;
+    }
+    .playlyst-wordmark {
+        left: 4px;
+    }
+    .playlyst-info {
+        top: 110px;
+    }
+    .playlyst-consideration-desc {
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .playlyst-consideration-img {
+        margin: 0 auto;
+    }
+    .playlyst-consideration-desc {
+        margin-top: 32px;
+    }
 }
 @media (min-width: 992px) {
     #startup-weekend {
@@ -737,6 +833,9 @@ ul {
     #expresso-products {
         display: none;
     }
+    .playlyst-header-img {
+        display: none;
+    }
     #startup-weekend {
         display: block;
         margin: 0 auto;
@@ -753,7 +852,7 @@ ul {
     #expresso-jumbotron {
         height: 250px;
     }
-    #clockd-jumbotron {
+    #clockd-jumbotron, #playlyst-jumbotron {
         height: 275px;
     }
     .project-info {
@@ -801,6 +900,12 @@ ul {
     .jupyter-jumbotron-ring {
         height: auto;
         margin-left: -5px !important;
+    }
+    .playlyst-info {
+        top: 0px;
+    }
+    .playlyst-wordmark {
+        margin: 0 auto;
     }
 }
 @media (max-width: 767px) {
